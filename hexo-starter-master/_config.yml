@@ -99,4 +99,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 'git'
+  # type: 'git'
+  # branch: master
+  # https://github.com/moxiaolong/moxiaolong.github.io.git
