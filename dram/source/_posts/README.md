@@ -5,11 +5,11 @@ tags:
 # index_img: /img/example.jpg
 ---
 
-欢迎来到我的博客
-在这里简单介绍下本站所用的开源项目~
+欢迎来到我的博客,
+在这里简单介绍下本站所用的开源项目.
 <!-- more -->
 ### Hexo 博客框架
-一个基于Node.js的博客框架, 可以将MarkDown编译为静态页面.
+一个基于 Node.js 的博客框架, 可以将 MarkDown 编译为静态页面.
 
 ### Fluid 主题
 在 Fluid / Butterfly / NexT 中选择了它, Burrerfly 的效果很酷, 但可能是绑定了过多事件监听的缘故(瞎猜), 导致 CPU 占用不小, 而且没有标题的导航, 而 NexT 过于朴素, 最近很喜欢大阴影, 所以选择了 Fluid.
