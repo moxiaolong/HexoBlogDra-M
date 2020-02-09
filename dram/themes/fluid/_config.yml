@@ -125,7 +125,12 @@ index:
   banner_img_height: 120  # 头图高度，屏幕百分比，available: 0 - 100
   slogan:  # 首页副标题的独立设置
     enable: true  # 为 false 则不显示任何内容
-    text: 'Dragon 前的 Dra<br/><br/> Mo 前的 M </br><br/> 不是 Dream<br/><br/> 是<br/><br/>Dra-M'
+    text: 'Dra is from Dragon <br/><br/>
+M is from Mo <br/><br/>
+Not Dream <br/><br/>
+but <br/><br/>
+Dra-M'
+    # text: 'Dragon 前的 Dra<br/><br/> Mo 前的 M </br><br/> 不是 Dream<br/><br/> 是<br/><br/>Dra-M'
 #     text: '
 # 我坚信人们对于我们的脊骨
 # <br/><br/>
@@ -305,7 +310,7 @@ tag:
 #---------------------------
 about:  # 以下仅为页面顶部的基本信息，更多内容请在 ./pages/about.md 中编辑，支持 markdown 和 HTML
   md_path: ./pages/about.md  # 关于页文档的相对路径，可以按相对文档设置主题之外的路径，从而避免更新冲突
-  banner_img: /img/fang.jfif
+  banner_img: /img/wuzi.jpg
   banner_img_height: 80  # available: 0 - 100
   avatar: https://q1.qlogo.cn/g?b=qq&nk=975425198&s=640 # 头像
   name: Dragon Mo
