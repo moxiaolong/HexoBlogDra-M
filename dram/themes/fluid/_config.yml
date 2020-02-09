@@ -42,7 +42,7 @@ fun_features: # 一些好玩的功能
 color:  # 主体颜色配置，可以从这里寻找启发： https://www.webdesignrankings.com/resources/lolcolors/
   body_bg_color: "#eee"
   navbar_bg_color: "#fff"
-  navbar_text_color: "#3f3f3f"
+  navbar_text_color: "#111"
   text_color: "#3c4858"
   link_color: "#3c4858"
   link_hover_color: "#66023C"

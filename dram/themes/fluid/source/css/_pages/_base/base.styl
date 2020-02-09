@@ -88,10 +88,12 @@ body
     color $navbar-text-color
 
 .top-nav-collapse
-  background-color $navbar-bg-color
+  background-color $navbar-bg-color !important
+  .animated-icon span
+    background $text-color
 
 .navbar-col-show
-  background-color $navbar-bg-color
+  background-color #222
 
 @media (max-width: 768px)
   .navbar
