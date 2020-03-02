@@ -79,6 +79,12 @@ navbar:
     category: /categories/
     tag: /tags/
     about: /about/
+  icon: 
+    home: <i class="fa fa-home" aria-hidden="true"></i>
+    archive: <i class="fa fa-archive" aria-hidden="true"></i>
+    category: <i class="fa fa-list" aria-hidden="true"></i>
+    tag: <i class="fa fa-tags" aria-hidden="true"></i>
+    about: <i class="fa fa-info-circle" aria-hidden="true"></i>
 
 search: # 搜索栏
   enable: true
@@ -187,7 +193,7 @@ post:
     content: '<img src="/img/dashang.png" class="rounded mx-auto d-block mt-5" style="width:250px; height:250px;">' # 自定义区域，支持 HTML，可自行插入赞赏码、公众号二维码等内容
   comments:  # 评论
     enable: true  # 开启评论
-    type: utterances  # 指定使用的评论模块  available: disqus | valine | gitalk | utterances | changyan | livere
+    type: gitalk  # 指定使用的评论模块  available: disqus | valine | gitalk | utterances | changyan | livere
   image_zoom:  # 文章图片可点击放大
     enable: true
   math:  # 数学公式，开启之前需要更换 Markdown 渲染器，否则复杂公式会有兼容问题，具体请见 https://fluid-dev.github.io/hexo-fluid-docs/guide/#数学公式
@@ -219,17 +225,17 @@ disqus:
 # You can get yout ClientID and ClientSecret from https://github.com/settings/applications/new
 # More info available at https://github.com/gitalk/gitalk#options
 gitalk:
-  clientID:                     # GitHub Application Client ID
-  clientSecret:                 # GitHub Application Client Secret
-  repo:                         # The repo to store comments
-  owner:                        # GitHub repository owner. Can be personal user or organization.
-  admin:                        # GitHub repo owner and collaborators, only these guys can initialize github issues, should be like "['admin']" or "['admin1','admin2']"
+  clientID: 83aaa6294c1c2c30b218                     # GitHub Application Client ID
+  clientSecret: 66a55feb8aaf1577eacbf94282e2d48e21e469ef                 # GitHub Application Client Secret
+  repo: Dra-M-utterance                  # The repo to store comments
+  owner: moxiaolong                       # GitHub repository owner. Can be personal user or organization.
+  admin: moxiaolong                       # GitHub repo owner and collaborators, only these guys can initialize github issues, should be like "['admin']" or "['admin1','admin2']"
   id: location.pathname         # The unique id of the page. Length must less than 50.
   language: zh-CN               # Localization language key, en, zh-CN and zh-TW are currently available.
   labels: "['Gitalk']"          # GitHub issue labels.
   perPage: 15                   # Pagination size, with maximum 100.
   pagerDirection: last          # Comment sorting direction, available values are last and first.
-  distractionFreeMode: false    # Facebook-like distraction free mode.
+  distractionFreeMode: true    # Facebook-like distraction free mode.
   createIssueManually: true     # By default, Gitalk will create a corresponding github issue for your every single page automatically when the logined user is belong to the admin users. You can create it manually by setting this option to true.
 
 # Valine
