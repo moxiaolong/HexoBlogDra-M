@@ -131,12 +131,13 @@ index:
   banner_img_height: 120  # 头图高度，屏幕百分比，available: 0 - 100
   slogan:  # 首页副标题的独立设置
     enable: true  # 为 false 则不显示任何内容
+    text: Dra-M.com
 #     text: 'Dra is from Dragon <br/><br/>
 # M is from Mo <br/><br/>
 # Not Dream <br/><br/>
 # but <br/><br/>
 # Dra-M'
-    text: 'Dragon 前的 Dra<br/><br/> Mo 前的 M </br><br/> 不是 Dream<br/><br/> 是<br/><br/>Dra-M'
+    # text: 'Dragon 前的 Dra<br/><br/> Mo 前的 M </br><br/> 不是 Dream<br/><br/> 是<br/><br/>Dra-M'
 #     text: '
 # 我坚信人们对于我们的脊骨
 # <br/><br/>
