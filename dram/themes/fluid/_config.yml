@@ -6,7 +6,8 @@
 # 本配置的详细指南请见：https://fluid-dev.github.io/hexo-fluid-docs/guide/
 #---------------------------
 
-
+page:
+  banner_img: /img/default.png
 #---------------------------
 # 全局
 # Site
