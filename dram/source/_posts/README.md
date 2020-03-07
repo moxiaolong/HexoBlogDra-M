@@ -1,6 +1,6 @@
 ---
 title: README.MD
-date: {{ date }}
+date: 2020-01-30 19:25:27
 tags:
 # index_img: /img/example.jpg
 ---
