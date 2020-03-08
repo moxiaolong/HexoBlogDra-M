@@ -1,0 +1,23 @@
+<footer class="mt-5">
+  <div class="text-center py-3">
+    <b>感谢 Hexo 博客框架, Fluid 主题
+      <br />
+      GitHub Pages 托管, Cloudflare CDN</b>
+    <br />
+    <br />
+    <br />
+
+    <%- partial('_partial/busuanzi.ejs') %>
+
+    <%- partial('_partial/beian.ejs') %>
+
+    <!-- cnzz Analytics icon -->
+    <% if(theme.web_analytics.cnzz) { %>
+    <span id="cnzz_stat_icon_<%- theme.web_analytics.cnzz %>" style="display: none"></span>
+    <% } %>
+
+  </div>
+</footer>
+
+<!-- SCRIPTS -->
+<%- partial('_partial/scripts.ejs') %>
