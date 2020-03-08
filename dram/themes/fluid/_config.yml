@@ -1,3 +1,4 @@
+
 #---------------------------
 # Fluid
 # Author: Fluid-dev organization
@@ -50,7 +51,7 @@ color:  # 主体颜色配置，可以从这里寻找启发： https://www.webdes
   board_color: "#fff"
 
 web_analytics:  # 网页访问统计
-  enable: true
+  enable: false
   baidu: 'a337e2eccf897d11d69e4e070df5a88f' # 百度统计的Key，参见 https://tongji.baidu.com/sc-web/10000033910/home/site/getjs?siteId=13751376 代码获取中 hm.js? 后边的字符串
   google:  # Google统计的Tracking ID，参见 https://analytics.google.com/analytics/web/
   tencent:  # 腾讯统计的H5 App id，参见 https://mta.qq.com/h5/manage/ctr_app_manage
@@ -63,6 +64,10 @@ lazyload: # 对页面中的图片进行懒加载处理，可见范围外的图�
 
 smooth_scroll: # 平滑滚动效果
   enable: true
+
+custom_js:   # 指定自定义 js 文件路径，路径是相对 source 目录，如 /js/custom.js
+custom_css:   # 指定自定义 css 文件路径，路径是相对 source 目录，如 /css/custom.css
+custom_html: ''  # 自定义底部 HTML 内容（位于 footer 上方），也可用于外部引入 js css 这些操作，注意不要和 post.custom 配置冲突
 
 daovoice:  # 在线客服 Daovoice 参考：http://dashboard.daovoice.io
   enable: false # 是否开启在线客服聊天
@@ -183,13 +188,13 @@ post:
   meta:  # 文章标题下方的信息
     date:  # 文章日期
       enable: true
-      format: "dddd, MMMM Do YYYY, h:mm a"  # 格式参照 ISO-8601 日期格式化
+      format: "YYYY - MM - DD , dddd , HH:mm"  # 格式参照 ISO-8601 日期格式化
     wordcount:  # 字数统计
       enable: true
       format: "{} 字"  # 显示的文本，{}是数字的占位符（必须包含)，下同
     min2read:  # 阅读时间
       enable: true
-      format: "{} 分钟"
+      format: "需要 {} 分钟"
     views:  # 阅读次数，统计基于不蒜子
       enable: true
       format: "{} 次"
