@@ -1,3 +1,21 @@
+live2d:
+  enable: true
+  # scriptFrom: local
+  # pluginRootPath: live2dw/
+  # pluginJsPath: lib/
+  # pluginModelPath: assets/
+  # tagMode: false
+  # debug: false
+  # model:
+  #   # use: Kobayaxi
+  #   use: live2d-widget-model-wanko
+  # display:
+  #   position: left
+  #   width: 150
+  #   height: 300
+  # mobile:
+  #   show: false
+
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
