@@ -1,9 +1,12 @@
 ---
 title: Oauth2+Gateway+JWT+RSA解决微服务单点登录问题
 categories:
-  - Java
+  - Java SpringCloud
 tags:
   - Java
+  - SpringCloud
+  - Oauth2 
+  - Gateway
 index_img: /images/oauth.jpg
 banner_img: /images/banner.jpg
 date: 2020-04-04 13:19:10
