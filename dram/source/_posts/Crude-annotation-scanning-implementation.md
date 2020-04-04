@@ -7,7 +7,7 @@ tags:
   - Java
   - Spring
 index_img: /images/Component.png
-banner_img: /images/Component.png
+banner_img: /images/banner.png
 date: 2020-03-07 19:25:27
 ---
 意识流简陋的实现了下注解扫描，主要为了让自己理清Spring注解扫描的大致思路。

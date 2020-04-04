@@ -1,14 +1,14 @@
 ---
-title: 彻底透析SpringBoot jar可执行原理
+title: 彻底透析Springboot jar可执行原理
 categories:
   - Java
-  - SpringBoot
+  - Springboot
 tags:
   - Java
-  - SpringBoot
+  - Springboot
 date: 2020-03-07 16:54:08
 index_img: /images/springbooticon.jpg
-banner_img: /images/springbooticon.jpg
+banner_img: /images/banner.jpg
 ---
 >  文章篇幅较长，但是包含了SpringBoot 可执行jar包从头到尾的原理，请读者耐心观看。同时文章是基于`SpringBoot-2.1.3`进行分析。涉及的知识点主要包括**Maven的生命周期以及自定义插件，JDK提供关于jar包的工具类以及Springboot如何扩展，最后是自定义类加载器**。
 <!-- more -->
