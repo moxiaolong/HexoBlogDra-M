@@ -1060,7 +1060,40 @@ public class AuthFilter implements GlobalFilter, Ordered {
 
 响应结果：![1585976721348](/images/Oauth2-Gateway-JWT-RSA-solves-single-sign-on-problems-for-microservices/1585976721348.png)
 
+### 扩展：服务之间用feign调用
+用feign调用其他资源服务时不带请求头，需要写一个feign拦截器，拼接当前的权限请求头后请求。
+```java
+/**
+ * 自定义拦截器, 拦截所有请求
+ * 每次微服务调用之前都先检查下头文件，将请求的头文件中的令牌数据再放入到header中
+ */
+@Component
+public class FeignInterceptor implements RequestInterceptor {
 
+    @Override
+    public void apply(RequestTemplate requestTemplate) {
+
+        RequestAttributes requestAttributes = RequestContextHolder.getRequestAttributes();
+
+        if (requestAttributes!=null){
+
+            HttpServletRequest request = ((ServletRequestAttributes) requestAttributes).getRequest();
+            if (request!=null){
+                Enumeration<String> headerNames = request.getHeaderNames();
+                if (headerNames!=null){
+                    while (headerNames.hasMoreElements()){
+                        String headerName = headerNames.nextElement();
+                        if (headerName.equals("authorization")){
+                            String headerValue = request.getHeader(headerName);
+                            requestTemplate.header(headerName,headerValue);
+                        }
+                    }
+                }
+            }
+        }
+        }
+}
+```
 
 ### git
 
